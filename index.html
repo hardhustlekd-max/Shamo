@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preload" as="image" type="image/webp" href="shamobet.me/hero-banner.webp" fetchpriority="high">
+  <link rel="icon" href="/favicon-default.png?v=2" sizes="any">
+    <link rel="icon" href="/favicon.png?v=2" type="image/png">
+    <title>Shamo.Bet – Drop Into Winning | Sports Betting &amp; Casino</title>
+    <meta name="description" content="Shamo.Bet is the next-gen sports betting and casino platform. Place bets on football, basketball, tennis and hundreds of live events with the best odds, instant payouts, and exclusive promotions.">
+    <meta name="author" content="Shamo.Bet">
+    <meta name="keywords" content="shamo bet, sports betting, online casino, live odds, football betting, basketball betting, tennis betting, live betting, instant payouts, mobile betting, bet online">
+    <link rel="canonical" href="https://shamo.bet/">
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Shamo.Bet">
+    <meta property="og:url" content="https://shamo.bet/">
+    <meta property="og:title" content="Shamo.Bet – Drop Into Winning | Sports Betting &amp; Casino">
+    <meta property="og:description" content="Join Shamo.Bet for top-tier sports betting, live odds, casino games, and instant payouts. Bet smart, win big.">
+    <meta property="og:image" content="https://shamo.bet/og-image.jpg">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@ShamoBet">
+    <meta name="twitter:title" content="Shamo.Bet – Drop Into Winning | Sports Betting &amp; Casino">
+    <meta name="twitter:description" content="Join Shamo.Bet for top-tier sports betting, live odds, casino games, and instant payouts. Bet smart, win big.">
+    <meta name="twitter:image" content="https://shamo.bet/og-image.jpg">
+
+  <!-- Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700;800;900&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap" rel="stylesheet" />
+
+  <style>
+    /* ========================================================
+       SHAMO BRAND DESIGN TOKENS
+       ======================================================== */
+    :root {
+      /* Backgrounds & Canvas */
+      --shamo-bg-canvas: #0b0e14;
+      --shamo-bg-surface: #151a26;
+      --shamo-border: #232b3e;
+
+      /* Primary Shamo Amber/Gold Palette */
+      --shamo-gold-gradient: linear-gradient(135deg, #ffd000 0%, #ff9900 100%);
+      --shamo-gold-glow: rgba(255, 184, 0, 0.28);
+
+      /* Typography */
+      --shamo-text-primary: #ffffff;
+      --shamo-text-muted: #64748b;
+
+      /* Elevation & Shapes */
+      --radius-md: 14px;
+      --radius-lg: 24px;
+      --shadow-card: 0 20px 45px -10px rgba(0, 0, 0, 0.75);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
+      background-color: var(--shamo-bg-canvas);
+      background-image: 
+        radial-gradient(circle at 50% -10%, rgba(255, 184, 0, 0.15) 0%, transparent 60%),
+        radial-gradient(circle at 100% 100%, rgba(15, 23, 42, 0.8) 0%, transparent 50%);
+      color: var(--shamo-text-primary);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 24px 16px;
+    }
+
+    /* Main Gateway Card */
+    .shamo-card {
+      width: 100%;
+      max-width: 400px;
+      background: var(--shamo-bg-surface);
+      border: 1px solid var(--shamo-border);
+      border-radius: var(--radius-lg);
+      padding: 44px 28px;
+      text-align: center;
+      box-shadow: var(--shadow-card);
+      position: relative;
+    }
+
+    /* Brand Header */
+    .brand-wrap {
+      margin-bottom: 32px;
+    }
+
+    .brand-title {
+      font-family: 'Outfit', sans-serif;
+      font-size: 2.6rem;
+      font-weight: 900;
+      letter-spacing: -0.5px;
+      color: #ffffff;
+      text-transform: uppercase;
+    }
+
+    .brand-title span {
+      background: var(--shamo-gold-gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    /* Primary Action Button */
+    .cta-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      width: 100%;
+      background: var(--shamo-gold-gradient);
+      color: #0b0e14;
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.15rem;
+      font-weight: 800;
+      padding: 18px 20px;
+      border: none;
+      border-radius: var(--radius-md);
+      text-decoration: none;
+      box-shadow: 0 10px 28px -4px var(--shamo-gold-glow);
+      cursor: pointer;
+      transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s ease;
+    }
+
+    .cta-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 14px 34px -4px var(--shamo-gold-glow);
+    }
+
+    .cta-btn:active {
+      transform: translateY(0);
+    }
+
+    .cta-btn svg {
+      transition: transform 0.2s ease;
+    }
+
+    .cta-btn:hover svg {
+      transform: translateX(4px);
+    }
+
+    /* Footer Legal */
+    .footer-note {
+      margin-top: 28px;
+      font-size: 0.75rem;
+      color: var(--shamo-text-muted);
+      letter-spacing: 0.2px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="shamo-card">
+    <!-- Brand Header -->
+    <div class="brand-wrap">
+      <h1 class="brand-title">SHAMO<span>.BET</span></h1>
+    </div>
+
+    <!-- Direct Action Button -->
+    <a href=" https://shamobet.me/?ref=NEWBONUS" class="cta-btn" id="mainCta">
+      <span>Register Now</span>
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/>
+      </svg>
+    </a>
+
+    <div class="footer-note">
+    </div>
+  </div>
+
+
+</body>
+</html>
